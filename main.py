@@ -475,7 +475,7 @@ with tabs[3]:
         col1, col2, col3 = st.columns([0.25,1,0.25])
 
         with col2:
-            img = Image.open(r"assets\certifications\Coursera\Machine Learning Specialization\ml_cert.jpg")
+            img = Image.open("asset//certifications//Coursera//Machine Learning Specialization//ml_cert.jpg")
             st.image(img,  width=700, use_column_width='always')
 
         st.write('\n')
@@ -485,17 +485,17 @@ with tabs[3]:
 
         with col1:
             st.markdown("<h5 align='center'> Supervised Machine Learning </h6>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\Coursera\Machine Learning Specialization\sup_cert.jpg")
+            img = Image.open("assets//certifications//Coursera//Machine Learning Specialization//sup_cert.jpg")
             st.image(img,  width=200, use_column_width='always')
 
         with col2:
             st.markdown("<h5 align='center'> Advanced Learning Algorithm <br> </h5>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\Coursera\Machine Learning Specialization\adv_cert.jpg")
+            img = Image.open("assets//certifications//Coursera//Machine Learning Specialization//adv_cert.jpg")
             st.image(img,  width=200, use_column_width='always')
 
         with col3:
             st.markdown("<h5 align='center'> Unsupervised, Reinforcement Learning </h5>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\Coursera\Machine Learning Specialization\uns_cert.jpg")
+            img = Image.open("assets//certifications//Coursera//Machine Learning Specialization//uns_cert.jpg")
             st.image(img,  width=200, use_column_width='always')
 
     st.write('\n')
@@ -506,7 +506,7 @@ with tabs[3]:
         col1, col2, col3 = st.columns([0.25,1,0.25])
 
         with col2:
-            img = Image.open(r"assets\certifications\Coursera\Deep Learning Specialization\dl_cert.jpg")
+            img = Image.open("assets//certifications//Coursera//Deep Learning Specialization//dl_cert.jpg")
             st.image(img,  width=700, use_column_width='always')
 
         st.write('\n')
@@ -516,35 +516,35 @@ with tabs[3]:
 
         with col1:
             st.markdown("<h5 align='center'> Neural Networks and Deep Learning </h6>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\Coursera\Deep Learning Specialization\nn_cert.jpg")
+            img = Image.open("assets//certifications//Coursera//Deep Learning Specialization//nn_cert.jpg")
             st.image(img,  width=200, use_column_width='always')
 
             st.write('\n')
 
             st.markdown("<h5 align='center'> Convolutional Neural Network </h6>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\Coursera\Deep Learning Specialization\cnn_cert.jpg")
+            img = Image.open("assets//certifications//Coursera//Deep Learning Specialization//cnn_cert.jpg")
             st.image(img,  width=200, use_column_width='always')
 
         with col2:
             st.markdown("<h5 align='center'> Improving Deep Neural Networks </h5>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\Coursera\Deep Learning Specialization\hyp_cert.jpg")
+            img = Image.open("assets//certifications//Coursera//Deep Learning Specialization//hyp_cert.jpg")
             st.image(img,  width=200, use_column_width='always')
 
             st.write('\n')
 
             st.markdown("<h5 align='center'> Sequence Models <br> <br> </h5>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\Coursera\Deep Learning Specialization\seq_cert.jpg")
+            img = Image.open("assets//certifications//Coursera//Deep Learning Specialization//seq_cert.jpg")
             st.image(img,  width=200, use_column_width='always')
 
         with col3:
             st.markdown("<h5 align='center'> Structuring Machine Learning Projects </h5>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\Coursera\Deep Learning Specialization\ml_project_cert.jpg")
+            img = Image.open("assets//certifications//Coursera//Deep Learning Specialization//ml_project_cert.jpg")
             st.image(img,  width=200, use_column_width='always')
 
             st.write('\n')
 
             st.markdown("<h5 align='center'> Deep Learning Badge <br> <br> </h5>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\Coursera\Deep Learning Specialization\dl_badge.jpg")
+            img = Image.open("assets//certifications//Coursera//Deep Learning Specializationdl_badge.jpg")
             st.image(img,  width=200, use_column_width='always')
 
     st.write('\n')
@@ -555,7 +555,7 @@ with tabs[3]:
         col1, col2, col3 = st.columns([0.25,1,0.25])
 
         with col2:
-            img = Image.open(r"assets\certifications\Coursera\TensorFlow Professional Certificate\tf.jpg")
+            img = Image.open("assets//certifications//Coursera//TensorFlow Professional Certificate//tf.jpg")
             st.image(img,  width=700, use_column_width='always')
 
         st.write('\n')
@@ -565,23 +565,23 @@ with tabs[3]:
 
         with col1:
             st.markdown("<h5 align='center'> Introduction TensorFlow for AI, ML, and DL </h6>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\Coursera\TensorFlow Professional Certificate\tf1.jpg")
+            img = Image.open("assets//certifications//Coursera//TensorFlow Professional Certificate//tf1.jpg")
             st.image(img,  width=200, use_column_width='always')
 
             st.write('\n')
 
             st.markdown("<h5 align='center'> Sequence, Time Series, and Prediction </h6>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\Coursera\TensorFlow Professional Certificate\tf4.jpg")
+            img = Image.open("assets//certifications//Coursera//TensorFlow Professional Certificate//tf4.jpg")
             st.image(img,  width=200, use_column_width='always')
 
         with col2:
             st.markdown("<h5 align='center'> Convolutional Neural Networks in TensorFlow </h5>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\Coursera\TensorFlow Professional Certificate\tf2.jpg")
+            img = Image.open("assets//certifications//Coursera//TensorFlow Professional Certificate//tf2.jpg")
             st.image(img,  width=200, use_column_width='always')
 
         with col3:
             st.markdown("<h5 align='center'> NLP in TensorFlow <br> <br> </h5>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\Coursera\TensorFlow Professional Certificate\tf3.jpg")
+            img = Image.open("assets//certifications//Coursera//TensorFlow Professional Certificate//tf3.jpg")
             st.image(img,  width=200, use_column_width='always')
 
     st.write('\n')
@@ -592,7 +592,7 @@ with tabs[3]:
         col1, col2, col3 = st.columns([0.25,1,0.25])
 
         with col2:
-            img = Image.open(r"assets\certifications\Coursera\TensorFlow.js\tf_dep.jpg")
+            img = Image.open("assets//certifications//Coursera//TensorFlow.js//tf_dep.jpg")
             st.image(img,  width=700, use_column_width='always')
 
         st.write('\n')
@@ -602,23 +602,23 @@ with tabs[3]:
 
         with col1:
             st.markdown("<h5 align='center'> Browser-based Models with TF.js </h6>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\Coursera\TensorFlow.js\tf_dep1.jpg")
+            img = Image.open("assets//certifications//Coursera//TensorFlow.js//tf_dep1.jpg")
             st.image(img,  width=200, use_column_width='always')
 
             st.write('\n')
 
             st.markdown("<h5 align='center'> Advanced Deployment Scenarios with TF </h6>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\Coursera\TensorFlow.js\tf_dep4.jpg")
+            img = Image.open("assets//certifications//Coursera//TensorFlow.js//tf_dep4.jpg")
             st.image(img,  width=200, use_column_width='always')
 
         with col2:
             st.markdown("<h5 align='center'> Device Based Models with TF Lite </h5>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\Coursera\TensorFlow.js\tf_dep3.jpg")
+            img = Image.open("assets//certifications//Coursera//TensorFlow.js//tf_dep3.jpg")
             st.image(img,  width=200, use_column_width='always')
 
         with col3:
             st.markdown("<h5 align='center'> Data Pipelines with TF Data Services </h5>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\Coursera\TensorFlow.js\tf_dep3.jpg")
+            img = Image.open("assets//certifications//Coursera//TensorFlow.js//tf_dep3.jpg")
             st.image(img,  width=200, use_column_width='always')
 
     st.write('\n')
@@ -629,7 +629,7 @@ with tabs[3]:
         col1, col2, col3 = st.columns([0.25,1,0.25])
 
         with col2:
-            img = Image.open(r"assets\certifications\Coursera\NLP Specialization\nlp.jpg")
+            img = Image.open("assets//certifications//Coursera//NLP Specialization//nlp.jpg")
             st.image(img,  width=700, use_column_width='always')
 
         st.write('\n')
@@ -639,23 +639,23 @@ with tabs[3]:
 
         with col1:
             st.markdown("<h5 align='center'> NLP with Classification and Vector Spaces </h6>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\Coursera\NLP Specialization\nlp1.jpg")
+            img = Image.open("assets//certifications//Coursera//NLP Specialization//nlp1.jpg")
             st.image(img,  width=200, use_column_width='always')
 
             st.write('\n')
 
             st.markdown("<h5 align='center'> NLP with Attention Models </h6>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\Coursera\NLP Specialization\nlp4.jpg")
+            img = Image.open("assets//certifications//Coursera//NLP Specialization//nlp4.jpg")
             st.image(img,  width=200, use_column_width='always')
 
         with col2:
             st.markdown("<h5 align='center'> NLP with Probabilistic Models </h5>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\Coursera\NLP Specialization\nlp2.jpg")
+            img = Image.open("assets//certifications//Coursera//NLP Specialization//nlp2.jpg")
             st.image(img,  width=200, use_column_width='always')
 
         with col3:
             st.markdown("<h5 align='center'> NLP with Sequence Models </h5>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\Coursera\NLP Specialization\nlp3.jpg")
+            img = Image.open("assets//certifications//Coursera//NLP Specialization//nlp3.jpg")
             st.image(img,  width=200, use_column_width='always')
 
     st.write('\n')
@@ -666,7 +666,7 @@ with tabs[3]:
         col1, col2, col3 = st.columns([0.25,1,0.25])
 
         with col2:
-            img = Image.open(r"assets\certifications\Coursera\AI For Medicine\ai_med.jpg")
+            img = Image.open("assets//certifications//Coursera//AI For Medicine//ai_med.jpg")
             st.image(img,  width=700, use_column_width='always')
 
         st.write('\n')
@@ -676,18 +676,18 @@ with tabs[3]:
 
         with col1:
             st.markdown("<h5 align='center'> AI for Medical Diagnosis </h6>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\Coursera\AI For Medicine\ai_med1.jpg")
+            img = Image.open("assets//certifications//Coursera//AI For Medicine//ai_med1.jpg")
             st.image(img,  width=200, use_column_width='always')
 
 
         with col2:
             st.markdown("<h5 align='center'> AI for Medical Treatment </h5>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\Coursera\AI For Medicine\ai_med2.jpg")
+            img = Image.open("assets//certifications//Coursera//AI For Medicine//ai_med2.jpg")
             st.image(img,  width=200, use_column_width='always')
 
         with col3:
             st.markdown("<h5 align='center'> AI for Medical Prognosis </h5>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\Coursera\AI For Medicine\ai_med3.jpg")
+            img = Image.open("assets//certifications//Coursera//AI For Medicine//ai_med3.jpg")
             st.image(img,  width=200, use_column_width='always')
 
     st.write('\n')
