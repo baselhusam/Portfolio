@@ -666,7 +666,7 @@ with tabs[3]:
         col1, col2, col3 = st.columns([0.25,1,0.25])
 
         with col2:
-            img = Image.open(".//assets//certifications//Coursera//AI For Medicine//ai_med.jpg")
+            img = Image.open(".//assets//certifications//Coursera//AI for Medicine//ai_med.jpg")
             st.image(img,  width=700, use_column_width='always')
 
         st.write('\n')
@@ -676,18 +676,18 @@ with tabs[3]:
 
         with col1:
             st.markdown("<h5 align='center'> AI for Medical Diagnosis </h6>", unsafe_allow_html=True)
-            img = Image.open(".//assets//certifications//Coursera//AI For Medicine//ai_med1.jpg")
+            img = Image.open(".//assets//certifications//Coursera//AI for Medicine//ai_med1.jpg")
             st.image(img,  width=200, use_column_width='always')
 
 
         with col2:
             st.markdown("<h5 align='center'> AI for Medical Treatment </h5>", unsafe_allow_html=True)
-            img = Image.open(".//assets//certifications//Coursera//AI For Medicine//ai_med2.jpg")
+            img = Image.open(".//assets//certifications//Coursera//AI for Medicine//ai_med2.jpg")
             st.image(img,  width=200, use_column_width='always')
 
         with col3:
             st.markdown("<h5 align='center'> AI for Medical Prognosis </h5>", unsafe_allow_html=True)
-            img = Image.open(".//assets//certifications//Coursera//AI For Medicine//ai_med3.jpg")
+            img = Image.open(".//assets//certifications//Coursera//AI for Medicine//ai_med3.jpg")
             st.image(img,  width=200, use_column_width='always')
 
     st.write('\n')
