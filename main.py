@@ -1,7 +1,6 @@
 from pathlib import Path
 import streamlit as st
 from PIL import Image
-from streamlit_option_menu import option_menu
 import base64
 
 # --- PATH SETTINGS ---
