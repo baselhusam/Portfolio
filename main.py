@@ -443,7 +443,7 @@ with tabs[3]:
         col1, col2, col3 = st.columns([0.25,1,0.25])
 
         with col2:
-            img = Image.open(r"assets\certifications\Coursera\Mathematics for ML\math_ml_cert.jpg")
+            img = Image.open(r"https://github.com/baselhusam/Portfolio/blob/main/assets/certifications/Coursera/Mathematics%20for%20ML/math_ml_cert.jpg")
             st.image(img,  width=700, use_column_width='always') 
 
         st.write('\n')
@@ -454,17 +454,17 @@ with tabs[3]:
 
         with col1:
             st.markdown("<h5 align='center'> Linear Algebra </h5>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\Coursera\Mathematics for ML\la_cert.jpg")
+            img = Image.open(r"https://github.com/baselhusam/Portfolio/blob/main/assets/certifications/Coursera/Mathematics%20for%20ML/la_cert.jpg")
             st.image(img,  width=200, use_column_width='always')
 
         with col2:
             st.markdown("<h5 align='center'> Multivariate Calculus </h5>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\Coursera\Mathematics for ML\mult_var_cal_cert.jpg")
+            img = Image.open(r"https://github.com/baselhusam/Portfolio/blob/main/assets/certifications/Coursera/Mathematics%20for%20ML/mult_var_cal_cert.jpg")
             st.image(img,  width=200, use_column_width='always')
 
         with col3:
             st.markdown("<h5 align='center'> PCA </h5>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\Coursera\Mathematics for ML\pca_cert.jpg")
+            img = Image.open(r"https://github.com/baselhusam/Portfolio/blob/main/assets/certifications/Coursera/Mathematics%20for%20ML/pca_cert.jpg")
             st.image(img,  width=200, use_column_width='always')
 
     st.write('\n')
