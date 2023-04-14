@@ -544,7 +544,7 @@ with tabs[3]:
             st.write('\n')
 
             st.markdown("<h5 align='center'> Deep Learning Badge <br> <br> </h5>", unsafe_allow_html=True)
-            img = Image.open(".//assets//certifications//Coursera//Deep Learning Specializationdl_badge.jpg")
+            img = Image.open(".//assets//certifications//Coursera//Deep Learning Specialization//dl_badge.jpg")
             st.image(img,  width=200, use_column_width='always')
 
     st.write('\n')
@@ -698,7 +698,7 @@ with tabs[3]:
         col1, col2, col3 = st.columns([0.25,1,0.25])
 
         with col2:
-            img = Image.open(r"assets\certifications\Coursera\AWS Specialization\aws.jpg")
+            img = Image.open(".//assets//certifications//Coursera//AWS Specialization//aws.jpg")
             st.image(img,  width=700, use_column_width='always')
 
         st.write('\n')
@@ -708,24 +708,24 @@ with tabs[3]:
 
         with col1:
             st.markdown("<h5 align='center'> AWS Fundamentals: Going Cloud-Native </h6>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\Coursera\AWS Specialization\aws1.jpg")
+            img = Image.open(".//assets//certifications//Coursera//AWS Specialization//aws1.jpg")
             st.image(img,  width=200, use_column_width='always')
 
             st.write('\n')
 
             st.markdown("<h5 align='center'> AWS Fundamentals: Building Serverless Apps </h6>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\Coursera\AWS Specialization\aws4.jpg")
+            img = Image.open(".//assets//certifications//Coursera//AWS Specialization//aws4.jpg")
             st.image(img,  width=200, use_column_width='always')
 
 
         with col2:
             st.markdown("<h5 align='center'> AWS Fundamentals: Addressing Security Risk </h5>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\Coursera\AWS Specialization\aws2.jpg")
+            img = Image.open(".//assets//certifications//Coursera//AWS Specialization//aws2.jpg")
             st.image(img,  width=200, use_column_width='always')
 
         with col3:
             st.markdown("<h5 align='center'> AWS Fundamentals: Migrating to the Cloud </h5>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\Coursera\AWS Specialization\aws3.jpg")
+            img = Image.open(".//assets//certifications//Coursera//AWS Specialization//aws3.jpg")
             st.image(img,  width=200, use_column_width='always')
 
     st.write('\n')
@@ -736,7 +736,7 @@ with tabs[3]:
         col1, col2, col3 = st.columns([0.25,1,0.25])
 
         with col2:
-            img = Image.open(r"assets\certifications\Coursera\data_vis.jpg")
+            img = Image.open(".//assets//certifications//Coursera//data_vis.jpg")
             st.image(img,  width=700, use_column_width='always')
 
         st.write('\n')
@@ -750,7 +750,7 @@ with tabs[3]:
         col1, col2, col3 = st.columns([0.25,1,0.25])
 
         with col2:
-            img = Image.open(r"assets\certifications\Coursera\ml_python.jpg")
+            img = Image.open(".//assets//certifications//Coursera//ml_python.jpg")
             st.image(img,  width=700, use_column_width='always')
 
         st.write('\n')
@@ -764,7 +764,7 @@ with tabs[3]:
         col1, col2, col3 = st.columns([0.25,1,0.25])
 
         with col2:
-            img = Image.open(r"assets\certifications\Coursera\data_eng_proj.jpg")
+            img = Image.open(".//assets//certifications//Coursera//data_eng_proj.jpg")
             st.image(img,  width=700, use_column_width='always')
 
         st.write('\n')
@@ -778,7 +778,7 @@ with tabs[3]:
         col1, col2, col3 = st.columns([0.25,1,0.25])
 
         with col2:
-            img = Image.open(r"assets\certifications\365 Data Science\data_clean.jpg")
+            img = Image.open(".//assets//certifications//365 Data Science//data_clean.jpg")
             st.image(img,  width=700, use_column_width='always')
 
         st.write('\n')
@@ -795,14 +795,14 @@ with tabs[3]:
 
             cola, colb, colc = st.columns([0.1,1,0.1])
             with colb:
-                img = Image.open(r"assets\certifications\Udacity\AWS_ML.jpg")
+                img = Image.open(".//assets//certifications//Udacity//AWS_ML.jpg")
                 st.image(img,  width=700, use_column_width='always')
 
         with col2:
 
             colx, coly, colz = st.columns([0.1,1,0.1])
             with coly:
-                img = Image.open(r"assets\certifications\Udacity\AWS-Course-badge-Gold.png")
+                img = Image.open(".//assets//certifications//Udacity//AWS-Course-badge-Gold.png")
                 st.image(img,  width=600, use_column_width='always')
 
         st.write('\n')
@@ -816,7 +816,7 @@ with tabs[3]:
         col1, col2,col3 = st.columns([0.25,1,0.25])
 
         with col2:
-            img = Image.open(r"assets\certifications\Udacity\DataAnalysis__Udacity.jpg")
+            img = Image.open(".//assets//certifications//Udacity//DataAnalysis__Udacity.jpg")
             st.image(img,  width=700, use_column_width='always')
 
         st.write('\n')
@@ -830,7 +830,7 @@ with tabs[3]:
         col1, col2,col3 = st.columns([0.25,1,0.25])
 
         with col2:
-            img = Image.open(r"assets\certifications\Data camp\data_eng.jpg")
+            img = Image.open(".//assets//certifications//Data camp//data_eng.jpg")
             st.image(img,  width=700, use_column_width='always')
 
         st.write('\n')
@@ -844,7 +844,7 @@ with tabs[3]:
         col1, col2,col3 = st.columns([0.25,1,0.25])
 
         with col2:
-            img = Image.open(r"assets\certifications\Data camp\python.jpg")
+            img = Image.open(".//assets//certifications//Data camp//python.jpg")
             st.image(img,  width=700, use_column_width='always')
 
         st.write('\n')
@@ -859,35 +859,35 @@ with tabs[3]:
 
         with col1:
             st.markdown("<h5 align='center'> Learning Excel: Data Analysis </h6>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\LinkedIn\l1.jpg")
+            img = Image.open(".//assets//certifications//LinkedIn//l1.jpg")
             st.image(img,  width=700, use_column_width='always')
 
             st.write('\n')
 
             st.markdown("<h5 align='center'> Excel Statistics Essential Training 1 </h6>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\LinkedIn\l4.jpg")
+            img = Image.open(".//assets//certifications//LinkedIn//l4.jpg")
             st.image(img,  width=700, use_column_width='always')
 
         with col2:
             st.markdown("<h5 align='center'> Learning Data Analysis 1 <br> <br> </h6>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\LinkedIn\l2.jpg")
+            img = Image.open(".//assets//certifications//LinkedIn//l2.jpg")
             st.image(img,  width=700, use_column_width='always')
 
             st.write('\n')
 
             st.markdown("<h5 align='center'> Data Fluency: Exploring & Describing Data </h6>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\LinkedIn\l5.jpg")
+            img = Image.open(".//assets//certifications//LinkedIn//l5.jpg")
             st.image(img,  width=700, use_column_width='always')
 
         with col3:
             st.markdown("<h5 align='center'> Learning Data Analysis 2 <br> <br> </h6>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\LinkedIn\l3.jpg")
+            img = Image.open(".//assets//certifications//LinkedIn//l3.jpg")
             st.image(img,  width=700, use_column_width='always')
 
             st.write('\n')
 
             st.markdown("<h5 align='center'> Non-tech skills of Effictive Data Scientist </h6>", unsafe_allow_html=True)
-            img = Image.open(r"assets\certifications\LinkedIn\l6.jpg")
+            img = Image.open(".//assets//certifications//LinkedIn//l6.jpg")
             st.image(img,  width=700, use_column_width='always')
 
         st.write('\n')
@@ -901,7 +901,7 @@ with tabs[3]:
         col1, col2,col3 = st.columns([0.25,1,0.25])
 
         with col2:
-            img = Image.open(r"assets\certifications\IEEE\IEEE Extreme.jpg")
+            img = Image.open(".//assets//certifications//IEEE//IEEE Extreme.jpg")
             st.image(img,  width=700, use_column_width='always')
 
         st.write('\n')
@@ -915,7 +915,7 @@ with tabs[3]:
         col1, col2,col3 = st.columns([0.25,1,0.25])
 
         with col2:
-            img = Image.open(r"assets\certifications\Udemy\python.jpg")
+            img = Image.open(".//assets//certifications//Udemy//python.jpg")
             st.image(img,  width=700, use_column_width='always')
 
         st.write('\n')
@@ -929,7 +929,7 @@ with tabs[3]:
         col1, col2,col3 = st.columns([0.25,1,0.25])
 
         with col2:
-            img = Image.open(r"assets\steam_center.jpg")
+            img = Image.open(".//assets//steam_center.jpg")
             st.image(img,  width=700, use_column_width='always')
 
         st.write("07/2022 - 08/2022")
