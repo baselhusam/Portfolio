@@ -443,7 +443,7 @@ with tabs[3]:
         col1, col2, col3 = st.columns([0.25,1,0.25])
 
         with col2:
-            img = Image.open("https://github.com/baselhusam/Portfolio/blob/main/assets/certifications/Coursera/Mathematics%20for%20ML/math_ml_cert.jpg")
+            img = Image.open(".//assets//certifications//Coursera//Mathematics for ML//math_ml_cert.jpg")
             st.image(img,  width=700, use_column_width='always') 
 
         st.write('\n')
