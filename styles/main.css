@@ -22,11 +22,9 @@ hr {
     margin-bottom: 5%;
 }
 
-/*
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
 header {visibility: hidden;}
-  */
 
 div.effect3d { animation-name: effect3d }
 @keyframes effect3d {
