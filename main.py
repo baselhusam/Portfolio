@@ -36,13 +36,7 @@ def displayPDF(file):
 
 page_bg_img = f"""
 <style>
-[data-testid="stAppViewContainer"] > .main {{
-background-image: url("https://raw.githubusercontent.com/baselhusam/Linear-Algebra/main/bg_2.jpg");
-background-size: 100%;
-background-position: top center;
-background-repeat: y-repeat;
-background-attachment: local;
-}}
+
 [data-testid="stHeader"] {{
 background: rgba(0,0,0,0);
 }}
@@ -52,7 +46,7 @@ right: 2rem;
 </style>
 """
 
-# st.markdown(page_bg_img, unsafe_allow_html=True)
+st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # --- LOAD CSS, PDF & PROFIL PIC ---
 with open(css_file) as f:
