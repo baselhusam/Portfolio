@@ -10,8 +10,8 @@ resume_file = current_dir / "assets" / "basels_cv.pdf"
 profile_pic = current_dir / "assets" / "my_face4.png"
 
 # --- GENERAL SETTINGS ---
-PAGE_TITLE = "Digital CV | Basel Mather"
-PAGE_ICON = "📝"
+PAGE_TITLE = "Portolio | Basel Mather"
+PAGE_ICON = "💼"
 NAME = "Basel Mather"
 
 DESCRIPTION = """
