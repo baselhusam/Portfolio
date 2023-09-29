@@ -6,13 +6,14 @@ import base64
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
-resume_file = current_dir / "assets" / "Basel CV V4.pdf"
+resume_file = current_dir / "assets" / "Basel CV.pdf"
 profile_pic = current_dir / "assets" / "my_face4.png"
 
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "Portfolio | Basel Mather"
 PAGE_ICON = "💼"
 NAME = "Basel Mather"
+
 
 DESCRIPTION = """
 Data Science student at the University of Jordan, passion for learning. I aim to keep learning and become a better version of myself every day.
@@ -90,8 +91,8 @@ st.write('\n')
 st.write('\n')
 st.write('\n')
 
-tab_titles = ["🔎 Overview", "🎢 Experience",  "🎯 Projects", "🎖️ Certifications", "🤝 Voluteering"]
-tabs = st.tabs([s.center(15,"\u2001") for s in tab_titles])
+tab_titles = ["🔎 Overview", "🎢 Experience",  "🎯 Projects", "🎖️ Certifications", "🤝 Voluteering", "✉️ Recommendation"]
+tabs = st.tabs([s.center(12,"\u2001") for s in tab_titles])
 
 # Overview
 with tabs[0]:
@@ -170,8 +171,35 @@ with tabs[1]:
     st.write("---")
 
     # --- JOB 1
+    st.markdown(" ### **Machine Learning Engineer Intern | Nafith Logistics**")
+    st.write("07/2023 - 9/2023 | Amman, Jordan | On-Site")
+    st.markdown(
+        """
+        During my ML Engineer Internship at Nafith Logistics International, I gained valuable experience in various aspects of machine learning and computer vision. My responsibilities included:
+
+        **Image Labeling and Dataset Preparation:** I meticulously labeled images of vehicle license plates and performed dataset preprocessing for model training.
+
+        **Model Development:** I was involved in training models for license plate recognition and optical character recognition (OCR) to extract inner numbers/characters from license plates.
+
+        **Inference and Post-Processing:** I successfully applied these models to perform image inference and developed OCR post-processing algorithms to convert OCR results into complete license plate strings.
+
+        **Object Detection and Tracking:** I implemented object detection using classical approaches, which involved techniques like contour analysis and background removal. I also enhanced detection results through image pre/post-processing and integrated classical approaches with YOLO.
+
+        **Tracking Algorithms:** I utilized the SORT algorithm for object tracking and collected relevant datasets for these tasks.
+
+        **Infrastructure and Deployment:** I gained proficiency in setting up Docker environments, built Docker files for running license plate recognition scripts, and established GPU connectivity. Additionally, I contributed to deployment using Docker Compose.
+
+        Throughout my internship, I acquired practical knowledge in CUDA installation, CuDNN, Ubuntu, and object counting using a classifier task, among other skills. This experience has enriched my understanding of computer vision, allowing me to contribute effectively to complex projects in these domains.
+        
+        **Skills:** Image Processing · YOLO · Inference · Image Labelling · Object Tracking · Docker · Data Collection · Ubuntu · Object Detection · Computer Vision
+
+        <br> 
+
+         """, unsafe_allow_html=True)
+
+    # --- JOB 1
     st.markdown(" ### **Data Science Intern | SHAI FOR AI**")
-    st.write("09/2022 - 12/2022")
+    st.write("09/2022 - 12/2022 | Amman, Jordan | On-Site")
     st.markdown(
         """
         I completed a three-month internship at SHAI FOR AI, where I gained valuable experience in data science and software engineering. 
@@ -211,6 +239,46 @@ with tabs[2]:
     st.write('\n')
     st.markdown("### 🧠 Machine & Deep Learning")
     st.markdown('---')
+
+    st.markdown("##### 👉 ClickML " , unsafe_allow_html=True)
+    with st.expander("ClickML Web Application"):
+        st.write("\n")
+        col1, col2, col3 = st.columns([0.25,1,0.25])
+        col2.image(".//assets//ClickML-Logo.png")
+        st.write("\n")
+        st.write("ClickML is a powerful and user-friendly platform designed to empower non-technologists to create predictive models for their businesses effortlessly. With ClickML, you can build, train, evaluate, and fine-tune machine learning models with just a few clicks, eliminating the need for complex coding.")
+
+        st.markdown("### 🎬 ClickML Promo")
+        st.markdown('---')
+        st.video(".//assets//ClickML-Promo.mp4")
+        st.write("\n")
+
+        st.markdown("### 📝 Project Description")
+        st.markdown('---')
+        st.write("ClickML aims to democratize machine learning by providing a no-code platform that simplifies the process of building predictive models. Our platform enables users to leverage the power of machine learning without having to dive into the intricacies of coding.")
+        st.write("\n")
+
+        st.markdown("### 🔍 ClickML Tutorial")
+        st.markdown('---')
+        st.video(".//assets//ClickML-Tutorial.mp4")
+        st.write("\n")
+
+        st.markdown("### 🔗 Links")
+        st.markdown('---')
+        st.markdown("""
+                    
+        👉 ClickML Web Application: [__available here__](https://clickml.streamlit.app/). <br>
+        
+        👉 ClickML Roadmap: [__available here__](https://clickml-roadmap.streamlit.app). <br>
+        
+        👉 ClickML Official LinkedIn Page: [__available here__](https://www.linkedin.com/company/clickml/?viewAsMember=true). <br>
+        
+        👉 ClickML Source Code in GitHub: [__available here__](https://github.com/baselhusam/clickml). <br>
+        
+                    """, unsafe_allow_html=True)
+
+
+    st.write('\n')
     st.markdown("##### 🎶 Song Popularity Prediction web app ", unsafe_allow_html=True)
     with st.expander("Song Popularity Prediction web app"):
         st.markdown(
@@ -268,6 +336,34 @@ with tabs[2]:
     st.write('\n')
     st.markdown("### 👁️‍🗨️ Computer Vision")
     st.markdown('---')
+
+    st.markdown("##### 🎨 Art Styleify " , unsafe_allow_html=True)
+    with st.expander("ClickML Web Application"):
+        st.write("\n")
+        col1, col2, col3 = st.columns([0.25,1,0.25])
+        col2.image(".//assets//Art-Styleify-Logo.png")
+        st.write("\n")
+        st.write("Art Styleify is a web application that allows you to transform your photos into stunning masterpieces using various artistic styles. With just a few clicks, you can apply the style of famous artists like Van Gogh, Josef Sima, Man Ray, Max Ernst, and Wassily Kandinsky to your images. Unleash your creativity and create unique artwork effortlessly!")
+
+        st.markdown("### 🎬 Art Styleify Promo")
+        st.markdown('---')
+        st.video(".//assets//Art-Styleify-Promo.mp4")
+        st.write("\n")
+
+    
+
+        st.markdown("### 🔗 Links")
+        st.markdown('---')
+        st.markdown("""
+                    
+        👉 Art Styleify Web Application: [__available here__](https://art-styleify.streamlit.app/). <br>
+        
+        👉 Art Styleify Source Code:  [__available here__](https://github.com/baselhusam/art-styleify/) <br>
+        
+                    """, unsafe_allow_html=True)
+        st.write("\n")
+
+    st.write("\n")
     st.markdown("##### 🃏 Playing Card Detection & Tarneeb Game", unsafe_allow_html=True)
     with st.expander("Playing Card Detection & Tarneeb Game"):
         st.markdown(
@@ -798,7 +894,7 @@ with tabs[3]:
         col1, col2, col3 = st.columns([0.25,1,0.25])
 
         with col2:
-            img = Image.open(".//assets//certifications//Coursera//AI for Medicine//ai_med.jpg")
+            img = Image.open(".//assets//certifications//Coursera//AI For Medicine//ai_med.jpg")
             st.image(img,  width=700, use_column_width='always')
 
         st.write('\n')
@@ -817,18 +913,18 @@ with tabs[3]:
 
         with col1:
             st.markdown("<h5 align='center'> AI for Medical Diagnosis </h6>", unsafe_allow_html=True)
-            img = Image.open(".//assets//certifications//Coursera//AI for Medicine//ai_med1.jpg")
+            img = Image.open(".//assets//certifications//Coursera//AI For Medicine//ai_med1.jpg")
             st.image(img,  width=200, use_column_width='always')
 
 
         with col2:
             st.markdown("<h5 align='center'> AI for Medical Treatment </h5>", unsafe_allow_html=True)
-            img = Image.open(".//assets//certifications//Coursera//AI for Medicine//ai_med2.jpg")
+            img = Image.open(".//assets//certifications//Coursera//AI For Medicine//ai_med2.jpg")
             st.image(img,  width=200, use_column_width='always')
 
         with col3:
             st.markdown("<h5 align='center'> AI for Medical Prognosis </h5>", unsafe_allow_html=True)
-            img = Image.open(".//assets//certifications//Coursera//AI for Medicine//ai_med3.jpg")
+            img = Image.open(".//assets//certifications//Coursera//AI For Medicine//ai_med3.jpg")
             st.image(img,  width=200, use_column_width='always')
 
     st.write('\n')
@@ -1385,3 +1481,31 @@ with tabs[4]:
 
                     """, unsafe_allow_html=True)
 
+# Recommendation Letter
+with tabs[5]:
+    
+    st.write("\n")
+    st.title("Recommendation Letters ✉️")
+    st.markdown("---")
+    st.write("""
+    This section contains recommendation letters that provide more information about my professional background and skills.
+    """)
+
+    st.write("\n")
+
+    st.subheader("Prof. Ibrahim Aljarah")
+    st.markdown("""Contact information: [__Email__](mailto:i.aljarah@ju.edu.jo)
+                """)
+    
+    col1, col2, col3 = st.columns([0.1,1,0.1])
+    col2.image(".//assets//Ibrahim-Rec-Let.jpg")
+
+    st.write("\n\n")
+
+    st.subheader("Dr. Sherenaz Al-Haj Baddar")
+    st.markdown("""
+                Contact information: [__Email__](mailto:s.baddar@ju.edu.jo) \n
+                **Telephone:** +962 06 535000 ext. 22589
+                """)
+    col1, col2, col3 = st.columns([0.1,1,0.1])
+    col2.image(".//assets//Sherenaz-Rec-Let.jpg")
