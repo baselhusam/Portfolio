@@ -894,7 +894,7 @@ with tabs[3]:
         col1, col2, col3 = st.columns([0.25,1,0.25])
 
         with col2:
-            assets/certifications/Coursera/AI for Medicine/ai_med.jpg
+            # assets/certifications/Coursera/AI for Medicine/ai_med.jpg
             img = Image.open("assets/certifications/Coursera/AI for Medicine/ai_med.jpg")
             st.image(img,  width=700, use_column_width='always')
 
